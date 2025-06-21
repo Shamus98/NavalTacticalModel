@@ -1,0 +1,131 @@
+Event added 00:00:00 Start at 00:00:00.000
+Event added 00:00:00 Start at 00:00:00.000
+Event added 00:00:00 Start at 00:00:00.000
+Starting simulation for 3600 seconds
+Run Event [00:00:00, Start at 00:00:00.000]
+Event executed: Start at 00:00:00. Info: Attacker-1 started mission
+Event added 00:00:01 StartDetect at 00:00:00.000
+Event added 00:00:01 StartDetect at 00:00:00.000
+Event added 00:00:01 StartDetect at 00:00:00.000
+Run Event [00:00:00.0000001, Start at 00:00:00.000]
+Event executed: Start at 00:00:00.0000001. Info: Attacker-2 started mission
+Run Event [00:00:00.0000002, Start at 00:00:00.000]
+Event executed: Start at 00:00:00.0000002. Info: Attacker-3 started mission
+Run Event [00:00:01, StartDetect at 00:00:00.000]
+Event executed: StartDetect at 00:00:01. Info: Attacker-1 detected by RGB at (-3000,00, 0,00)
+Run Event [00:00:01.0000001, StartDetect at 00:00:00.000]
+Event executed: StartDetect at 00:00:01.0000001. Info: Attacker-2 detected by RGB at (-4500,00, 866,03)
+Run Event [00:00:01.0000002, StartDetect at 00:00:00.000]
+Event executed: StartDetect at 00:00:01.0000002. Info: Attacker-3 detected by RGB at (-4500,00, 866,03)
+Simulation completed at 1,0000002 seconds
+
+=== Current Status ===
+Time: 00:00:01.0000002
+
+Attackers:
+Attacker-1: (-3500,00, 500,00), Engine: Gasoline, Status: ACTIVE
+Attacker-2: (-4000,00, 1000,00), Engine: Gasoline, Status: ACTIVE
+Attacker-3: (-4500,00, 1500,00), Engine: Gasoline, Status: ACTIVE
+
+Defenders:
+Defender-1: (6000,00, 1000,00), Speed: 7
+Defender-2: (7000,00, 2000,00), Speed: 7
+
+RGBs:
+RGB at (-7500,00, -4330,13) (G: 1000m, E: 500m)
+RGB at (-7500,00, -2598,08) (G: 1000m, E: 500m)
+RGB at (-7500,00, -866,03) (G: 1000m, E: 500m)
+RGB at (-7500,00, 2598,08) (G: 1000m, E: 500m)
+RGB at (-7500,00, 4330,13) (G: 1000m, E: 500m)
+RGB at (-7500,00, 6062,18) (G: 1000m, E: 500m)
+RGB at (-7500,00, 7794,23) (G: 1000m, E: 500m)
+RGB at (-6000,00, -8660,25) (G: 1000m, E: 500m)
+RGB at (-6000,00, -6928,20) (G: 1000m, E: 500m)
+RGB at (-6000,00, -5196,15) (G: 1000m, E: 500m)
+RGB at (-6000,00, -3464,10) (G: 1000m, E: 500m)
+RGB at (-6000,00, -1732,05) (G: 1000m, E: 500m)
+RGB at (-6000,00, 0,00) (G: 1000m, E: 500m)
+RGB at (-6000,00, 1732,05) (G: 1000m, E: 500m)
+RGB at (-6000,00, 3464,10) (G: 1000m, E: 500m)
+RGB at (-6000,00, 5196,15) (G: 1000m, E: 500m)
+RGB at (-6000,00, 6928,20) (G: 1000m, E: 500m)
+RGB at (-6000,00, 8660,25) (G: 1000m, E: 500m)
+RGB at (-4500,00, -9526,28) (G: 1000m, E: 500m)
+RGB at (-4500,00, -6062,18) (G: 1000m, E: 500m)
+RGB at (-4500,00, -4330,13) (G: 1000m, E: 500m)
+RGB at (-4500,00, -2598,08) (G: 1000m, E: 500m)
+RGB at (-4500,00, -866,03) (G: 1000m, E: 500m)
+RGB at (-4500,00, 866,03) (G: 1000m, E: 500m)
+RGB at (-4500,00, 2598,08) (G: 1000m, E: 500m)
+RGB at (-4500,00, 6062,18) (G: 1000m, E: 500m)
+RGB at (-4500,00, 7794,23) (G: 1000m, E: 500m)
+RGB at (-3000,00, -5196,15) (G: 1000m, E: 500m)
+RGB at (-3000,00, 0,00) (G: 1000m, E: 500m)
+RGB at (-3000,00, 1732,05) (G: 1000m, E: 500m)
+RGB at (-3000,00, 3464,10) (G: 1000m, E: 500m)
+RGB at (-3000,00, 5196,15) (G: 1000m, E: 500m)
+RGB at (-3000,00, 6928,20) (G: 1000m, E: 500m)
+RGB at (-3000,00, 8660,25) (G: 1000m, E: 500m)
+RGB at (-1500,00, -9526,28) (G: 1000m, E: 500m)
+RGB at (-1500,00, -7794,23) (G: 1000m, E: 500m)
+RGB at (-1500,00, -6062,18) (G: 1000m, E: 500m)
+RGB at (-1500,00, -4330,13) (G: 1000m, E: 500m)
+RGB at (-1500,00, 866,03) (G: 1000m, E: 500m)
+RGB at (-1500,00, 2598,08) (G: 1000m, E: 500m)
+RGB at (-1500,00, 4330,13) (G: 1000m, E: 500m)
+RGB at (-1500,00, 6062,18) (G: 1000m, E: 500m)
+RGB at (-1500,00, 7794,23) (G: 1000m, E: 500m)
+RGB at (0,00, -6928,20) (G: 1000m, E: 500m)
+RGB at (0,00, -5196,15) (G: 1000m, E: 500m)
+RGB at (0,00, -1732,05) (G: 1000m, E: 500m)
+RGB at (0,00, 0,00) (G: 1000m, E: 500m)
+RGB at (0,00, 5196,15) (G: 1000m, E: 500m)
+RGB at (0,00, 8660,25) (G: 1000m, E: 500m)
+RGB at (1500,00, -7794,23) (G: 1000m, E: 500m)
+RGB at (1500,00, -6062,18) (G: 1000m, E: 500m)
+RGB at (1500,00, -4330,13) (G: 1000m, E: 500m)
+RGB at (1500,00, -2598,08) (G: 1000m, E: 500m)
+RGB at (1500,00, -866,03) (G: 1000m, E: 500m)
+RGB at (1500,00, 866,03) (G: 1000m, E: 500m)
+RGB at (1500,00, 2598,08) (G: 1000m, E: 500m)
+RGB at (1500,00, 4330,13) (G: 1000m, E: 500m)
+RGB at (1500,00, 6062,18) (G: 1000m, E: 500m)
+RGB at (1500,00, 7794,23) (G: 1000m, E: 500m)
+RGB at (1500,00, 9526,28) (G: 1000m, E: 500m)
+RGB at (3000,00, -6928,20) (G: 1000m, E: 500m)
+RGB at (3000,00, -5196,15) (G: 1000m, E: 500m)
+RGB at (3000,00, -3464,10) (G: 1000m, E: 500m)
+RGB at (3000,00, -1732,05) (G: 1000m, E: 500m)
+RGB at (3000,00, 0,00) (G: 1000m, E: 500m)
+RGB at (3000,00, 1732,05) (G: 1000m, E: 500m)
+RGB at (3000,00, 3464,10) (G: 1000m, E: 500m)
+RGB at (3000,00, 5196,15) (G: 1000m, E: 500m)
+RGB at (3000,00, 8660,25) (G: 1000m, E: 500m)
+RGB at (4500,00, -7794,23) (G: 1000m, E: 500m)
+RGB at (4500,00, -6062,18) (G: 1000m, E: 500m)
+RGB at (4500,00, -4330,13) (G: 1000m, E: 500m)
+RGB at (4500,00, -2598,08) (G: 1000m, E: 500m)
+RGB at (4500,00, -866,03) (G: 1000m, E: 500m)
+RGB at (4500,00, 866,03) (G: 1000m, E: 500m)
+RGB at (4500,00, 2598,08) (G: 1000m, E: 500m)
+RGB at (4500,00, 4330,13) (G: 1000m, E: 500m)
+RGB at (4500,00, 6062,18) (G: 1000m, E: 500m)
+RGB at (4500,00, 7794,23) (G: 1000m, E: 500m)
+RGB at (4500,00, 9526,28) (G: 1000m, E: 500m)
+RGB at (6000,00, -8660,25) (G: 1000m, E: 500m)
+RGB at (6000,00, -5196,15) (G: 1000m, E: 500m)
+RGB at (6000,00, -3464,10) (G: 1000m, E: 500m)
+RGB at (6000,00, -1732,05) (G: 1000m, E: 500m)
+RGB at (6000,00, 0,00) (G: 1000m, E: 500m)
+RGB at (6000,00, 1732,05) (G: 1000m, E: 500m)
+RGB at (6000,00, 5196,15) (G: 1000m, E: 500m)
+RGB at (6000,00, 6928,20) (G: 1000m, E: 500m)
+RGB at (6000,00, 8660,25) (G: 1000m, E: 500m)
+RGB at (7500,00, -7794,23) (G: 1000m, E: 500m)
+RGB at (7500,00, -4330,13) (G: 1000m, E: 500m)
+RGB at (7500,00, -2598,08) (G: 1000m, E: 500m)
+RGB at (7500,00, 866,03) (G: 1000m, E: 500m)
+RGB at (7500,00, 4330,13) (G: 1000m, E: 500m)
+RGB at (7500,00, 6062,18) (G: 1000m, E: 500m)
+RGB at (7500,00, 7794,23) (G: 1000m, E: 500m)
+RGB at (7500,00, 9526,28) (G: 1000m, E: 500m)
