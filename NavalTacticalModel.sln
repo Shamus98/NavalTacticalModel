@@ -1,9 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35707.178 d17.12
+VisualStudioVersion = 17.12.35707.178
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NavalTacticalModel", "SolutionAkvatoria\NavalTacticalModel.csproj", "{AA06B385-BA11-4CB7-A51B-6E21370A57D1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractModel", "SolutionAkvatoria\AbstractModel.csproj", "{AA06B385-BA11-4CB7-A51B-6E21370A57D1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AkvatoriaModel", "AkvatoriaModel\AkvatoriaModel.csproj", "{95A77286-2425-463F-BF30-20CD2D30E230}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AkvatoriaRunner", "AkvatoriaRunner\AkvatoriaRunner.csproj", "{625C92E2-A94B-4C93-AED4-BA897FB79F8A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{AA06B385-BA11-4CB7-A51B-6E21370A57D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AA06B385-BA11-4CB7-A51B-6E21370A57D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AA06B385-BA11-4CB7-A51B-6E21370A57D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95A77286-2425-463F-BF30-20CD2D30E230}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95A77286-2425-463F-BF30-20CD2D30E230}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95A77286-2425-463F-BF30-20CD2D30E230}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95A77286-2425-463F-BF30-20CD2D30E230}.Release|Any CPU.Build.0 = Release|Any CPU
+		{625C92E2-A94B-4C93-AED4-BA897FB79F8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{625C92E2-A94B-4C93-AED4-BA897FB79F8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{625C92E2-A94B-4C93-AED4-BA897FB79F8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{625C92E2-A94B-4C93-AED4-BA897FB79F8A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

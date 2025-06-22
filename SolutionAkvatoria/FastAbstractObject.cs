@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Xml.Serialization;
 
-namespace NavalTacticalModel
+namespace AbstractModel
 {
     public abstract class FastAbstractObject
     {
@@ -68,7 +68,7 @@ namespace NavalTacticalModel
             return objects[key];
         }
 
-        public TimeSpan AddEvent(TimeSpan timeSpan, FastAbstractEvent modelEvent, string objUid = null)
+        protected TimeSpan AddEvent(TimeSpan timeSpan, FastAbstractEvent modelEvent, string objUid = null)
         {
             WriteDebug($"Event added {timeSpan} {modelEvent} {objUid}");
 
