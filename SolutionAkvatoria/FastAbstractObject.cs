@@ -68,7 +68,7 @@ namespace NavalTacticalModel
             return objects[key];
         }
 
-        protected TimeSpan AddEvent(TimeSpan timeSpan, FastAbstractEvent modelEvent, string objUid = null)
+        public TimeSpan AddEvent(TimeSpan timeSpan, FastAbstractEvent modelEvent, string objUid = null)
         {
             WriteDebug($"Event added {timeSpan} {modelEvent} {objUid}");
 

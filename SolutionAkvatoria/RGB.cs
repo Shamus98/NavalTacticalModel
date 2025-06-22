@@ -1,61 +1,32 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
 namespace NavalTacticalModel
 {
     public class RGB : FastAbstractObject
     {
-        public Point2D Position { get; private set; }
-        public double GasolineDetectionRadius { get; private set; }
-        public double ElectricDetectionRadius { get; private set; }
-        private HashSet<string> _detectedObjects = new HashSet<string>();
+        public double X { get; }
+        public double Y { get; }
+        public double DetectionRadius { get; }
 
-        public RGB(Point2D position, double gasolineRadius, double electricRadius)
+        public RGB(double x, double y, bool isElectric)
         {
-            Position = position;
-            GasolineDetectionRadius = gasolineRadius;
-            ElectricDetectionRadius = electricRadius;
-            lastUpdated = TimeSpan.Zero;
+            X = x;
+            Y = y;
+            DetectionRadius = isElectric
+                ? SimulationConstants.DetectionRadiusElectric
+                : SimulationConstants.DetectionRadiusGasoline;
         }
 
-        public bool DetectObject(BEC bec)
-        {
-            if (bec is AttackerBEC attacker)
-            {
-                double detectionRadius = attacker.CurrentEngine == EngineType.Electric
-                    ? ElectricDetectionRadius
-                    : GasolineDetectionRadius;
+        public override (TimeSpan, FastAbstractEvent) getNearestEvent() =>
+            (TimeSpan.MaxValue, null);
 
-                bool isDetected = Position.DistanceTo(attacker.Position) <= detectionRadius;
-                bool wasDetected = _detectedObjects.Contains(attacker.uid);
+        public override void Update(TimeSpan timeSpan) { }
 
-                if (isDetected && !wasDetected)
-                {
-                    _detectedObjects.Add(attacker.uid);
-                    return true;
-                }
-                else if (!isDetected && wasDetected)
-                {
-                    _detectedObjects.Remove(attacker.uid);
-                }
-            }
-            return false;
-        }
-
-        public override (TimeSpan, FastAbstractEvent) getNearestEvent()
-        {
-            // В реальной реализации здесь должна быть проверка объектов в зоне обнаружения
-            return (TimeSpan.MaxValue, null);
-        }
-
-        public override void Update(TimeSpan timeSpan)
-        {
-            lastUpdated = timeSpan;
-        }
-
-        public override string ToString()
-        {
-            return $"RGB at {Position} (G: {GasolineDetectionRadius}m, E: {ElectricDetectionRadius}m)";
-        }
+        public bool Detect(double x, double y) =>
+            Math.Sqrt(Math.Pow(X - x, 2) + Math.Pow(Y - y, 2)) <= DetectionRadius;
     }
 }
